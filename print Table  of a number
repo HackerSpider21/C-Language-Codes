@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int x,i=1,b;
+printf("which numbers table you want");
+scanf("%d",&x);
+do
+{
+b=x*i;
+printf("%d\n",b);
+i++;
+}while (b!=x*10);
+}
