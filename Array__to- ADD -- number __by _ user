@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+  int a[10],k,i=0,j;
+ printf("enter ten numbers ");
+ for(j=0;j<=9;j++)
+ scanf("%d",&a[j]);
+ do
+ {
+   k=k+a[i];
+ i++;
+ }while(i<=9);
+
+printf("%d",k);
+
+}
