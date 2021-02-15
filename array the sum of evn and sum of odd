@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+
+ int a[5],k,i,g;
+ printf("enter 10 numbers ");
+ for(i=0;i<=4;i++)
+  scanf("%d",&a[i]);
+
+for(i=0;i<=4;i++)
+{
+ if (a[i]%2==0)
+{
+ k=k+a[i];
+}
+}
+printf(" the sum of even is %d",k);
+
+for(i=0;i<=4;i++)
+{
+ if (a[i]%2!=0)
+{
+ g=g+a[i];
+}
+}
+printf(" the sum of odd  is %d",g);
+
+
+
+}
